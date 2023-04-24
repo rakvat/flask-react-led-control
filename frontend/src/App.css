@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.buttons-on-off {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.color-selector {
+    margin-top: 20px;
+
+}
+.color-selector > div {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.presets {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.presets .presets-select {
+    width: 300px;
+    margin-right: 20px;
+}
+.presets .speed-slider {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.status {
+    margin-top: 40px;
+}
